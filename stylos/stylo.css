@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root{
+    --cor01: #30838C;
+    --cor02: #255941;
+    --cor03: #2D734B;
+    --cor04: #3FA663;
+    --cor05: #262626;
+    --fontPadrao: 'Ysabeau', sans-serif;
+    --fontTitulo: 'Bebas Neue', cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: var(--fontPadrao);
+    /*background-color: rgba(255, 0, 0, 0.205);*/
+}
+header{
+    width: 100%;
+    background-image: linear-gradient(to top, var(--cor04), var(--cor01));
+    font-size: 1.5em;
+    text-align: center;
+    color: #fff;
+}   
+#header{
+    max-width: 1060px;
+    min-width: 300px;
+    margin: auto;
+    padding: 60px 0 0 0;
+}
+#header > h1{   
+    font: 3em var(--fontTitulo);
+}
+#header > p{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px 10px 20px 10px;
+}
+nav{
+    text-align: left;
+    font-size: 0.8em;
+}
+nav > a{
+    text-decoration: none;
+    color: #fff;
+}
+nav > a:hover{
+    color: var(--cor05);
+}
+main > article{
+    max-width: 1020px;
+    min-width: 260px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px #26262642;
+    font-size: 1.3em;
+    text-align: justify;
+}
+main > article >h1{
+    font:2em var(--fontTitulo);
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+main > article > h2{
+    font:1.5em var(--fontTitulo);
+    margin: 20px 0px;
+}
+main > article > p{
+    margin: 20px 0 30px 0;
+    font-size: 1.1em;
+    text-indent: 30px;
+    line-height: 1.1em;
+}
+main > article > picture > img{
+    width: 90%;
+    display: block;
+    margin: auto
+}
+img{
+    display: block;
+    margin: auto 
+}
+abbr{
+    text-decoration: none;
+}
+iframe{
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+
+}
+aside{
+    background-color: var(--cor04);
+    color: #fff;
+    font-size: .8em;
+    padding: 30px;
+    border-radius: 20px;
+}
+aside > h3{
+    font:1.5em var(--fontTitulo);
+    background-color: var(--cor02);
+    padding: 10px;
+    margin: -30px -30px 0px -30px;
+    border-radius: 10px 10px 0px 0px;
+}
+aside > ul{
+    list-style-position: inside;
+    columns: 2;
+    
+}
+footer{
+    background-color: var(--cor05);
+    height: 100px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 20px;
+}
+
+
